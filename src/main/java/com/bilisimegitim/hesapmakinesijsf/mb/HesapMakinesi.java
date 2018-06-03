@@ -41,6 +41,31 @@ public class HesapMakinesi {
         this.sonuc = sonuc;
     }
     
-    
+    public String topla ()
+    {
+        
+        sonuc = sayi1 + sayi2;
+     
+        return "";
+    }
+    public String cikar ()
+    {
+        
+        sonuc = sayi1 - sayi2;
+     
+        return "";
+    }public String carp ()
+    {
+        
+        sonuc = sayi1 * sayi2;
+     
+        return "";
+    }public String bol ()
+    {
+        
+        sonuc = sayi1 / sayi2;
+     
+        return "";
+    }
     
 }
